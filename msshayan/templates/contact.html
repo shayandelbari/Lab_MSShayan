@@ -1,0 +1,250 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <!-- meta data -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!--font-family-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+
+    <!-- title of site -->
+    <title>Put your name here | Contact</title>
+
+    <!-- For favicon png - static file -->
+    <link
+      rel="shortcut icon"
+      type="image/icon"
+      href="{% static 'assets/logo/favicon.png' %}"
+    />
+
+    <!--font-awesome.min.css - static file-->
+    <link
+      rel="stylesheet"
+      href="{% static 'assets/css/font-awesome.min.css' %}"
+    />
+
+    <!--linear icon css - static file-->
+    <link rel="stylesheet" href="{% static 'assets/css/linearicons.css' %}" />
+
+    <!--animate.css - static file-->
+    <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}" />
+
+    <!--flaticon.css - static file-->
+    <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}" />
+
+    <!--slick.css - static files-->
+    <link rel="stylesheet" href="{% static 'assets/css/slick.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/css/slick-theme.css' %}" />
+
+    <!--bootstrap.min.css - static file-->
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}" />
+
+    <!-- bootsnav  - static file-->
+    <link rel="stylesheet" href="{% static 'assets/css/bootsnav.css' %}" />
+
+    <!--style.css - static file-->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}" />
+
+    <!--responsive.css - static file-->
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}" />
+  </head>
+
+  <body>
+    <!-- top-area Start -->
+    <section class="top-area">
+      <div class="header-area">
+        <!-- Start Navigation -->
+        <nav
+          class="navbar navbar-default bootsnav navbar-sticky navbar-scrollspy"
+          data-minus-value-desktop="70"
+          data-minus-value-mobile="55"
+          data-speed="1000"
+        >
+          <div class="container">
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#navbar-menu"
+              >
+                <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="/">
+                Put Your <span>Brand Name Here</span></a
+              >
+            </div>
+            <!--/.navbar-header-->
+            <!-- End Header Navigation -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse menu-ui-design"
+              id="navbar-menu"
+            >
+              <ul
+                class="nav navbar-nav navbar-right"
+                data-in="fadeInDown"
+                data-out="fadeOutUp"
+              >
+                <li class="scroll"><a href="/">home</a></li>
+                <!-- Replace the # by /contact/ -->
+                <li class="scroll active"><a href="#">contact</a></li>
+              </ul>
+              <!--/.nav -->
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!--/.container-->
+        </nav>
+        <!--/nav-->
+        <!-- End Navigation -->
+      </div>
+      <!--/.header-area-->
+      <div class="clearfix"></div>
+    </section>
+    <!-- /.top-area-->
+    <!-- top-area End -->
+
+    <!--subscription strat -->
+    <section id="contact" class="subscription">
+      <div class="container">
+        <div class="subscribe-title text-center">
+          <h2>Do have specifiq request ?</h2>
+          <p>Contact us trough the form below.</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="subscription-input-group">
+              <form action="#">
+                <p>
+                  <input
+                    type="text"
+                    class="subscription-input-form"
+                    placeholder="Enter your full name"
+                  />
+                </p>
+                <p>
+                  <input
+                    type="email"
+                    class="subscription-input-form"
+                    placeholder="Enter your email here"
+                  />
+                </p>
+                <p>
+                  <textarea
+                    class="subscription-input-form"
+                    placeholder="Enter your message here"
+                    style="height: 175px"
+                  ></textarea>
+                </p>
+                <p>
+                  <button class="appsLand-btn subscribe-btn" type="button">
+                    Send my request
+                  </button>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/subscription-->
+    <!--subscription end -->
+
+    <!--footer start-->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="footer-menu">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="/"
+                  >Put your<span>Brand Name Here</span></a
+                >
+              </div>
+              <!--/.navbar-header-->
+            </div>
+          </div>
+        </div>
+        <div class="hm-footer-copyright">
+          <div class="row">
+            <div class="col-sm-5">
+              <p>
+                &copy;copyright. designed and developed by
+                <a href="https://www.themesine.com/">themesine</a>
+              </p>
+              <!--/p-->
+            </div>
+            <div class="col-sm-7">
+              <div class="footer-social">
+                <span><i class="fa fa-phone"> +1 (222) 777 8888</i></span>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.hm-footer-copyright-->
+      </div>
+      <!--/.container-->
+
+      <div id="scroll-Top">
+        <div class="return-to-top">
+          <i
+            class="fa fa-angle-up"
+            id="scroll-top"
+            data-toggle="tooltip"
+            data-placement="top"
+            title=""
+            data-original-title="Back to Top"
+            aria-hidden="true"
+          ></i>
+        </div>
+      </div>
+      <!--/.scroll-Top-->
+    </footer>
+    <!--/.footer-->
+    <!--footer end-->
+
+    <!-- Include all js compiled plugins (below), or include individual files as needed - static file-->
+
+    <script src="assets/js/jquery.js"></script>
+
+    <!--modernizr.min.js - static file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <!--bootstrap.min.js - static file-->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- bootsnav js - static file-->
+    <script src="assets/js/bootsnav.js"></script>
+
+    <!--feather.min.js - static file-->
+    <script src="assets/js/feather.min.js"></script>
+
+    <!-- counter js - static file-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+
+    <!--slick.min.js - static file-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--JQuery - this is an external link don't need to touch it -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <!--Custom JS - static file-->
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
+
