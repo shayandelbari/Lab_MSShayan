@@ -1,9 +1,10 @@
 from django.http.response import HttpResponse
+from django.shortcuts import render
 
 
 def accueil(request):
-    return HttpResponse("Bienvenue, ceci est le contenu de la page Accueil")
+    return render(request, "index.html")
 
 
 def contact(request):
-    return HttpResponse("Bienvenue, ceci est le contenu de la page Contact")
+    return render(request, "contact.html")
